@@ -1,0 +1,273 @@
+* {
+    color: #fff;
+    box-sizing: border-box 
+ }
+ 
+ body {
+    margin: 0;
+ }
+ 
+ .hero {
+    height: 120vh;
+    background: url("../assets/images/hero-bg.png") no-repeat center/cover;
+ }
+ 
+ .container {
+    max-width: 1760px;
+    margin: 0 auto;
+    padding: 0 20px;
+ }
+ 
+ header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ h1 {
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+ }
+ 
+ .navigation-list {
+    display: flex;
+ }
+ 
+ .navigation-item {
+    margin: 0 20px;
+ }
+ 
+ .navigation-link {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+ }
+ 
+ .profile-button {
+    display: flex;
+    align-items: center;
+ }
+ 
+ .profile-button img {
+    margin-right: 8px;
+ }
+ 
+ .hero-header{
+    width: 950px;
+    height: 200px;
+    position: relative;
+    left: 500px;
+    top: 287px;
+    font-size: 88px;
+    text-transform: capitalize ;
+ }
+ 
+ .scroll-down-and-arrow-div{
+    width: 126px;
+    height: 24px;
+    display: flex;
+    position: relative;
+    top: 318px;
+    left: 500px;
+ }
+ 
+ .scroll-down-div{
+    display: flex;
+ }
+ 
+ .arrow{
+ display: flex;
+ }
+ 
+ .hr-and-text{
+    display: flex;
+ }
+ 
+ .hero-hr{
+    border-bottom: 2px #FBD784 solid;
+    width: 72px;
+    height: 0px;
+    margin-left: 500px;
+ }
+ 
+ .text-near-hero-hr{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-left: 32px;
+    color: #FBD784;
+ }
+ 
+ .social-networks{
+    display: flex;
+    font-weight: 700;
+    width: 77px;
+    height: 22px;
+    white-space: nowrap;
+    position: absolute;
+    margin-left: 62px;
+    transform: rotate(90deg);
+ }
+ 
+ .social-networks-instagram{
+    margin: 0 24px;
+    transform: rotate(270deg);
+ }
+ 
+ .social-networks-twitter{
+    transform: rotate(280deg);
+ }
+ 
+ .text-under-Account-start-and-numbers{
+    margin-bottom: 459px;
+    margin-left: 1763px;
+    font-weight: 700;
+ }
+ 
+ .start{
+    position: relative;
+    bottom: 60px;
+    right: 25px;
+ }
+ 
+ .numbers{
+    position: relative;
+    bottom: 60px;
+    margin: 40px 0;
+ }
+ 
+ .right-large-hr{
+    transform: rotate(90deg);
+    position: relative;
+    right: 30px;
+    bottom: 175px;
+    opacity: 70%;
+    color: #fff;
+ }
+ 
+ .right-mini-hr{
+    width: 3px;
+    height: 60px;
+    background-color: #fff;
+    position: relative;
+    left: 38px;
+    bottom: 254px;
+ }
+ 
+ .content-linear-gradient{
+    width: 100%;
+    height: 2700px;
+    background: linear-gradient(180deg, rgba(11, 29, 38, 0) -380%, #0B1D26 61.38%);
+ }
+ 
+ .linear-gradient-image-01{
+    width: 566px;
+    height: 720px;
+    position: absolute;
+    left: 61.29%;
+    bottom: -800px;
+ }
+ 
+ .linear-gradient-number-01{
+    position: absolute;
+    left: 229px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 240px;
+    line-height: 240px;
+    width: 240px;
+    height: 240px;
+ }
+ 
+ .all-text-01{
+    position: relative;
+    left: 395px;
+    top: 90px;
+ }
+ 
+ .content-02-div{
+    display: flex;
+    position: relative;
+    left: 229px;
+    top: 200px;
+ }
+ 
+ .content-03-div{
+    display: flex;
+    position: relative;
+    left: 229px;
+    top: 200px;
+ }
+ 
+ .MNTN{
+    width: 216px;
+    height: 76px;
+    position: absolute;
+    top: 3395px;
+    left: 229px;
+ }
+ 
+ .text-under-MNTN-Get-out{
+    position: absolute;
+    width: 303px;
+    height: 64px;
+    left: 229px;
+    top: 3443px;
+ }
+ 
+ .Copyright{
+    position: absolute;
+    width: 303px;
+    height: 64px;
+    left: 229px;
+    top: 3620px;
+    opacity: 50%;
+ }
+ 
+ .ul-footer-list-left{
+    position: absolute;
+    width: 303px;
+    height: 64px;
+    left: 1125px;
+    top: 3400px;
+ }
+ 
+ .More{
+    margin: 0 0 24px 0;
+    color: #FBD784;
+ }
+ 
+ .About-MNTN{
+    margin: 24px 0 24px 0;
+ }
+ 
+ .Write-For-Us{
+    margin: 24px 0 24px 0;
+ }
+ 
+ .Privacy-Policy{
+    margin: 24px 0 24px 0;
+ }
+ 
+ .footer-list-right{
+    position: absolute;
+    width: 303px;
+    height: 64px;
+    left: 1337px;
+    top: 3400px;
+ }
+ 
+ .More-on-MNTN{
+    margin: 0 0 24px 0;
+    color: #FBD784;
+ }
+ 
+ .Jobs{
+    margin: 24px 0 24px 0;
+ }
